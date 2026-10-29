@@ -24,8 +24,8 @@ An open-source Agentic RAG chatbot that answers questions about any uploaded PDF
 | Metric | Naive RAG | Agentic RAG |
 |---|---|---|
 | Key-fact accuracy (24 answerable questions) | 95.8% | **100%** |
-| Unanswerable questions correctly refused | n/a | **5 / 5** |
-| Retrieval Hit@1 | 0.75 (dense only) | **0.83** (hybrid + rerank) |
+| Unanswerable questions correctly refused | 5 / 5 | **5 / 5** |
+| Retrieval Hit@1 | 0.79 (dense only) | **0.83** (hybrid + rerank) |
 
 Both systems use the same LLM and answer prompt. Full tables, charts and per-question answers are in the notebook outputs and in [`results/`](results/).
 
