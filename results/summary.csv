@@ -1,0 +1,12 @@
+,Naive RAG,Agentic RAG
+Key-fact accuracy,0.958,1.0
+LLM-judge (1-5),4.792,4.833
+Token-F1,0.397,0.417
+Semantic similarity,0.685,0.691
+Refusal accuracy (unanswerable),1.0,1.0
+False-refusal rate,0.0,0.0
+Citation rate,1.0,1.0
+Avg latency (s),3.828,11.432
+p95 latency (s),6.088,21.012
+Avg LLM calls,1.0,3.207
+Generation speed (tok/s),8.7,13.5
