@@ -31,6 +31,9 @@ Both systems use the same LLM and answer prompt. Full tables, charts and per-que
 
 ![Benchmark](results/benchmark.png)
 
+## Agent workflow
+![LangGraph workflow](results/workflow_graph.png)
+
 ## Repository layout
 - `Agentic_RAG_PDF_Chatbot.ipynb`: the full pipeline, with comments and benchmarks
 - `build_notebook.py`: source of the notebook. Edit this, then run `python build_notebook.py` to regenerate it.
