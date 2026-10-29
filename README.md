@@ -10,6 +10,17 @@ An open-source Agentic RAG chatbot that answers questions about any uploaded PDF
 3. **Runtime → Run all**.
 4. Open the Gradio link printed in Section 8, upload a PDF and chat.
 
+## Demo
+A 63-page set of deep learning notes was uploaded and the bot was asked "what is cnn and bilstm?". The agent split the question into two sub-questions, retrieved and graded 6 chunks, verified the answer against them and cited the pages it used.
+
+| Upload and agent trace | Step-by-step trace |
+|---|---|
+| ![Upload](docs/demo_upload.png) | ![Trace](docs/demo_trace.png) |
+
+| Cited answer | Sources |
+|---|---|
+| ![Answer](docs/demo_answer_1.png) | ![Sources](docs/demo_answer_2.png) |
+
 ## Stack
 | Part | Choice |
 |---|---|
