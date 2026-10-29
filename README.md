@@ -21,6 +21,10 @@ A 63-page set of deep learning notes was uploaded and the bot was asked "what is
 |---|---|
 | ![Answer](docs/demo_answer_1.png) | ![Sources](docs/demo_answer_2.png) |
 
+When a question can't be answered from the PDF, the agent says so instead of making up an answer:
+
+<img src="docs/demo_refusal.png" alt="Refusing an out-of-document question" width="420">
+
 ## Stack
 | Part | Choice |
 |---|---|
